@@ -44,7 +44,7 @@ export default function ClimaScreen({ navigation }: Props) {
   const [loading, setLoading] = useState(true);
   const [erro, setErro] = useState<string | null>(null);
 
-  const API_KEY = '5c3d3a8972de60c15eed3e3f96f167fe';
+  const API_KEY = 'INSERE_A_CHAVE_AQUI';
 
   useEffect(() => {
     obterLocalizacaoEClima();
